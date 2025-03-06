@@ -1,4 +1,6 @@
-import {name} from "./library.js";
-console.log(name)
+// import {name, myapp} from "./library.js"
+import * as m from "./library.js"
 
-// let obj = new Student;
+console.log(m.email)
+let obj = new m.Student 
+

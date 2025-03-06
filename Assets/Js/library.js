@@ -1,4 +1,4 @@
-// export{name, myapp, email, showData};
+export{name, myapp, email, showData, Student};
 
 let name = "ali";
 let email = "ali@gmail.com"
@@ -12,10 +12,10 @@ function showData(){
     console.log("This is second function");
 }
 
-// class Student{
-//     constructor(){
-//         document.write("This is constructor method")
-//     }
-// }
+class Student{
+    constructor(){
+        console.log("This is constructor method")
+    }
+}
 
 
